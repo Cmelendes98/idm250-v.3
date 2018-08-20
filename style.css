@@ -1,0 +1,294 @@
+
+body,html {
+    font-family: 'Poppins', sans-serif;
+	margin:0px;
+	background-color: #eae7dc;
+    color:#8e8d8a;
+}  
+header nav ul {
+	    margin: 10px 25px 0px;
+		display: flex;
+
+justify-content: flex-end;
+}
+header nav ul li {
+    padding: 10px;
+    margin:10px 0px;
+    display: inline-block; 
+}
+header nav ul li.noborder{ 
+	border:0px;
+    justify-self: flex-start;
+    margin-right: auto;
+
+}
+header nav ul li a {
+	font-weight:bold;
+}
+footer {
+background-color:#8e8d8a;
+min-height: 300px;
+}
+footer ul li a  {
+    color:#eae7dc;
+}
+footer ul li a:hover {
+    color:#e85a4f;
+}
+footer nav ul {
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 100px;
+
+
+}
+.side_bar a{
+    display:block;
+
+
+}
+.side_bar img {
+    max-width: 100%
+}
+.side_bar {
+    max-width: 240px;
+}
+.single_page .main_content {
+    max-width: 1000px;
+}
+.single_page .main_content img {
+    max-width: 100%;
+}
+a {
+	text-decoration: none;
+	color: #e98074;
+}
+a:hover {
+	text-decoration: underline;
+	color:#8e8d8a;
+}
+#preheader {
+	background-color: #d8c3a5;
+	color: #8e8d8a;
+	justify-content: space-between;
+	padding: 0px 10px;
+	align-items:center;
+}
+#preheader a {
+	width:30px;
+	height:30px;
+	padding: 0px 2px;
+}
+#preheader #social {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 40px;
+
+}
+.flex-container {
+	display:flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    max-width:500px;
+}
+.align-items-center {
+    align-items:center;
+
+}
+.align-items-start {
+    align-items:flex-start;
+
+}
+.flex-direction {
+    flex-direction:column;
+} 
+.button {
+    color: #e85a4f;
+    border:1px solid #e85a4f;
+    border-radius: 3px;
+    padding:5px 10px;
+}
+.title_text {
+    max-width: 500px;
+}
+.padding_all {
+    padding:20px;
+}
+.padding_top_bottom_large {
+    margin: 44px 0px;
+}
+.archive_page .title-portrait {
+    max-width:200px;
+}
+.archive_page .images img {
+    max-width:400px;
+    margin:10px 10px;
+    border-radius:4px;
+}
+.archive_page .images div {
+    max-width:420px;
+    max-height:200px;
+    overflow:hidden;
+}
+.red_bar {
+    width:100%;
+    background-color:#e85a4f;
+    height:2px;
+    margin-top: 130px;
+}
+.red_bar_divider {
+    width:100%;
+    background-color:#e85a4f;
+    height:2px;
+    display: block;
+    margin: 10px 0px;
+}
+
+.archive_page .header_div {
+    flex-wrap:nowrap;
+}
+.archive_page .header_div h1 {
+    white-space: nowrap;
+}
+
+/* BEGIN SIDE NAV FOR MOBILE */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.colorDarkRed {
+    color: #e85a4f;
+}
+.colorLightRed {
+    color:#e98074;
+}
+.aboutMeIcons div {
+    flex-basis:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+}
+
+.openLink {
+    display:none;
+}
+.center_block_wrapper_mobile{
+    display:none;
+        
+}
+.center-text {
+    text-align:center;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+@media screen and (max-width:768px){
+	.openLink {
+        display:inline-block;
+        float: left;
+        position: absolute;
+    }
+
+    .openLink  img{
+        max-width: 50px;
+    }
+    #main-header nav {
+    	display:none;
+    }
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/* END SIDE NAV FOR MOBILE */
+
+.home_page .title_text h1 {
+	color:#e85a4f;
+	margin-bottom: 5px;
+	font-weight: 900;
+}
+.home_page .title_text h2 {
+	color:#8e8d8a;
+	margin-top:-7px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.body_wrap {
+	padding: 10px 20px;
+    margin: 0px auto;
+    max-width:1280px;
+} 
+.title-portrait {
+	max-width:500px;
+    padding: 0px 38px;
+
+}
+.justify-center {
+	justify-content:center;
+}
+h1 {
+	font-size:47px;
+}
+h2 {
+	font-size:35px;
+
+}
+h3 {
+    font-weight: 900;
+    font-size:23px;
+}
+
+
+
+
+
+
+
+
+
+
