@@ -1,24 +1,8 @@
 <?php get_header(); ?>
 
-	<main role="main">
-		<!-- section -->
-		<section>
-
-			<!-- article -->
-			<article id="post-404">
-
-				<h1><?php _e( 'Page not found', 'html5blank' ); ?></h1>
-				<h2>
-					<a href="<?php echo home_url(); ?>"><?php _e( 'Return home?', 'html5blank' ); ?></a>
-				</h2>
-
-			</article>
-			<!-- /article -->
-
-		</section>
-		<!-- /section -->
-	</main>
-
-<?php get_sidebar(); ?>
+<div class= "flex-container justify-center align-items-center flex-direction"> 
+	<img src='<?php echo get_template_directory_uri(); ?>/icons/title_portrat.png' class = 'title-portrait'/> 
+	<h1 class="colorLightRed"> Nothing is here... Try again</h1>
+</div>
 
 <?php get_footer(); ?>

@@ -45,6 +45,9 @@ footer nav ul {
 
 
 }
+.twice-width {
+    flex:2;
+}
 .side_bar a{
     display:block;
 
