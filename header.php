@@ -34,7 +34,7 @@
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<?php 
             wp_nav_menu([
-                'theme_location'  => 'header-menu',
+                'theme_location'  => 'mobile-header-menu',
                 'container'       => 'div',
                 'menu_class'      => 'nav navbar-nav navbar-right',
             ]);
